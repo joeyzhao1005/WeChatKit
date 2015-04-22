@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Copyright (C) 2010-2013 The SINA WEIBO Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+
+    <string name="no_bind_weibo">您还没有绑定微博</string>
+
+
+    <string name="com_sina_weibo_sdk_login_with_weibo_account">用微博登录</string>
+    <string name="com_sina_weibo_sdk_login">登录</string>
+    <string name="com_sina_weibo_sdk_logout">注销</string>
+
+
+    <string name="status_destory_ok">删除微博成功</string>
+    <string name="status_destory_fail">删除微博失败</string>
+
+    <string name="comment_32_like_created">已点32个赞</string>
+    <string name="comment_32_like_create">32个赞</string>
+    <string name="comment_32_like_destory">已取消32个赞</string>
+    <string name="comment_destroy_ok">删除评论成功</string>
+    <string name="comment_destroy_fail">删除评论失败</string>
+    <string name="comment_reply_ok">回复评论成功</string>
+    <string name="comment_reply_fail">回复评论失败</string>
+    <string name="repost_ok">转发成功</string>
+    <string name="repost_fail">转发失败</string>
+    <string name="comment_ok">评论成功</string>
+    <string name="comment_fail">评论失败</string>
+    <string name="favorite_ok">收藏成功</string>
+    <string name="favorite_fail">收藏失败</string>
+    <string name="unfavorite_ok">取消收藏成功</string>
+    <string name="unfavorite_fail">取消收藏失败</string>
+
+
+    <string name="status_show_ok">获取微博成功</string>
+    <string name="status_show_fail">获取微博失败</string>
+
+    <string name="friends_time_line_ok">微博加载成功</string>
+    <string name="friends_time_line_fail">微博加载失败</string>
+
+
+    <string name="emotions_fail">获取表情失败</string>
+</resources>

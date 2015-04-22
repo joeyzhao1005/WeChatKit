@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res"><file name="push_up_in" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/anim/push_up_in.xml" qualifiers="" type="anim"/><file name="mm_actbtn_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_actbtn_text.xml" qualifiers="" type="color"/><file name="mm_btn_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_btn_text.xml" qualifiers="" type="color"/><file name="mm_choice_text_color" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_choice_text_color.xml" qualifiers="" type="color"/><file name="mm_hyper_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_hyper_text.xml" qualifiers="" type="color"/><file name="mm_list_textcolor_one" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_list_textcolor_one.xml" qualifiers="" type="color"/><file name="mm_list_textcolor_time" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_list_textcolor_time.xml" qualifiers="" type="color"/><file name="mm_list_textcolor_two" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_list_textcolor_two.xml" qualifiers="" type="color"/><file name="mm_pref_summary" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_pref_summary.xml" qualifiers="" type="color"/><file name="mm_pref_title" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_pref_title.xml" qualifiers="" type="color"/><file name="mm_style_one_btn_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_style_one_btn_text.xml" qualifiers="" type="color"/><file name="mm_style_two_btn_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_style_two_btn_text.xml" qualifiers="" type="color"/><file name="mm_title_btn_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/color/mm_title_btn_text.xml" qualifiers="" type="color"/><file name="btn_style_alert_dialog_button" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/btn_style_alert_dialog_button.xml" qualifiers="" type="drawable"/><file name="btn_style_alert_dialog_cancel" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/btn_style_alert_dialog_cancel.xml" qualifiers="" type="drawable"/><file name="btn_style_alert_dialog_special" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/btn_style_alert_dialog_special.xml" qualifiers="" type="drawable"/><file name="btn_style_one" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/btn_style_one.xml" qualifiers="" type="drawable"/><file name="com_sina_weibo_sdk_button_blue" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/com_sina_weibo_sdk_button_blue.xml" qualifiers="" type="drawable"/><file name="com_sina_weibo_sdk_button_grey" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/com_sina_weibo_sdk_button_grey.xml" qualifiers="" type="drawable"/><file name="com_sina_weibo_sdk_login_button_with_account_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/com_sina_weibo_sdk_login_button_with_account_text.xml" qualifiers="" type="drawable"/><file name="com_sina_weibo_sdk_login_button_with_frame_logo" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/com_sina_weibo_sdk_login_button_with_frame_logo.xml" qualifiers="" type="drawable"/><file name="com_sina_weibo_sdk_login_button_with_original_logo" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/com_sina_weibo_sdk_login_button_with_original_logo.xml" qualifiers="" type="drawable"/><file name="list_selector_background" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/list_selector_background.xml" qualifiers="" type="drawable"/><file name="mm_checkbox_btn" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/mm_checkbox_btn.xml" qualifiers="" type="drawable"/><file name="mm_checkbox_mini" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/mm_checkbox_mini.xml" qualifiers="" type="drawable"/><file name="mm_edit" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/mm_edit.xml" qualifiers="" type="drawable"/><file name="mm_submenu" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/mm_submenu.xml" qualifiers="" type="drawable"/><file name="mm_title_btn_back" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/mm_title_btn_back.xml" qualifiers="" type="drawable"/><file name="mm_title_btn_right" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/mm_title_btn_right.xml" qualifiers="" type="drawable"/><file name="preference_first_item" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/preference_first_item.xml" qualifiers="" type="drawable"/><file name="preference_item" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/preference_item.xml" qualifiers="" type="drawable"/><file name="preference_last_item" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/preference_last_item.xml" qualifiers="" type="drawable"/><file name="preference_one_item" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable/preference_one_item.xml" qualifiers="" type="drawable"/><file name="btn_check_off_disable" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_check_off_disable.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_check_off_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_check_off_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_check_on_disable" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_check_on_disable.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_check_on_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_check_on_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_alert_dialog_background" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_alert_dialog_background.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_alert_dialog_button_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_alert_dialog_button_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_alert_dialog_button_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_alert_dialog_button_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_alert_dialog_cancel_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_alert_dialog_cancel_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_alert_dialog_special_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_alert_dialog_special_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_alert_dialog_special_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_alert_dialog_special_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_one_disabled" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_one_disabled.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_one_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_one_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_one_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_one_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_style_one_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/btn_style_one_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_button_blue_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_button_blue_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_button_blue_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_button_grey_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_button_grey_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_button_grey_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_login_with_account_text_focused.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_login_with_account_text_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_login_with_text.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_logo" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_com_sina_weibo_sdk_logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_dialog_alert" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_dialog_alert.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_dialog_long_click" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_dialog_long_click.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_first_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_first_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_first_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_first_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_last_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_last_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_last_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_last_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_one_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_one_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_one_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_one_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_single_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_single_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_single_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_single_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_top_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_top_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_preference_top_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/ic_preference_top_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_checkbox_mini_checked" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_checkbox_mini_checked.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_checkbox_mini_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_checkbox_mini_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_edit_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_edit_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_edit_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_edit_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_listitem_disable" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_listitem_disable.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_listitem_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_listitem_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_listitem_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_listitem_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_submenu_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_submenu_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_submenu_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_submenu_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_act_btn_disable" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_act_btn_disable.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_act_btn_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_act_btn_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_act_btn_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_act_btn_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_act_btn_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_act_btn_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_back_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_back_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_back_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_back_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_back_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_back_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_bg" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_btn_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_btn_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_btn_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_btn_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_btn_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_title_btn_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_trans" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/mm_trans.png" qualifiers="hdpi-v4" type="drawable"/><file name="send_img" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/send_img.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="send_music_thumb" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/send_music_thumb.png" qualifiers="hdpi-v4" type="drawable"/><file name="send_music_thumb_backup" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-hdpi/send_music_thumb_backup.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-ldpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-ldpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-ldpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-ldpi/ic_com_sina_weibo_sdk_login_with_account_text_focused.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-ldpi/ic_com_sina_weibo_sdk_login_with_account_text_normal.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-ldpi/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-ldpi/ic_com_sina_weibo_sdk_login_with_text.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_logo" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-ldpi/ic_com_sina_weibo_sdk_logo.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_button_blue_focused.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_button_blue_normal.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_button_blue_pressed.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_button_grey_focused.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_button_grey_normal.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_button_grey_pressed.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_login_with_account_text_focused.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_login_with_account_text_normal.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_text" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_login_with_text.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_logo" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-mdpi/ic_com_sina_weibo_sdk_logo.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_button_blue_focused.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_button_blue_normal.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_blue_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_button_blue_pressed.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_button_grey_focused.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_button_grey_normal.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_button_grey_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_button_grey_pressed.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_login_with_account_text_focused.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_login_with_account_text_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_logo" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xhdpi/ic_com_sina_weibo_sdk_logo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xxhdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xxhdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xxhdpi/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_focused" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xxhdpi/ic_com_sina_weibo_sdk_login_with_account_text_focused.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_normal" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xxhdpi/ic_com_sina_weibo_sdk_login_with_account_text_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_com_sina_weibo_sdk_login_with_account_text_pressed" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/drawable-xxhdpi/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="alert_dialog_menu_layout" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/alert_dialog_menu_layout.xml" qualifiers="" type="layout"/><file name="alert_dialog_menu_list_layout" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/alert_dialog_menu_list_layout.xml" qualifiers="" type="layout"/><file name="alert_dialog_menu_list_layout_cancel" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/alert_dialog_menu_list_layout_cancel.xml" qualifiers="" type="layout"/><file name="alert_dialog_menu_list_layout_special" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/alert_dialog_menu_list_layout_special.xml" qualifiers="" type="layout"/><file name="alert_dialog_menu_list_layout_title" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/alert_dialog_menu_list_layout_title.xml" qualifiers="" type="layout"/><file name="entry" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/entry.xml" qualifiers="" type="layout"/><file name="get_from_wx" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/get_from_wx.xml" qualifiers="" type="layout"/><file name="image_button" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/image_button.xml" qualifiers="" type="layout"/><file name="mm_activity" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_activity.xml" qualifiers="" type="layout"/><file name="mm_example_ui" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_example_ui.xml" qualifiers="" type="layout"/><file name="mm_preference" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference.xml" qualifiers="" type="layout"/><file name="mm_preference_catalog" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_catalog.xml" qualifiers="" type="layout"/><file name="mm_preference_checkbox" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_checkbox.xml" qualifiers="" type="layout"/><file name="mm_preference_child" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_child.xml" qualifiers="" type="layout"/><file name="mm_preference_content_choice" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_content_choice.xml" qualifiers="" type="layout"/><file name="mm_preference_content_domainmail" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_content_domainmail.xml" qualifiers="" type="layout"/><file name="mm_preference_content_domainmaillist" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_content_domainmaillist.xml" qualifiers="" type="layout"/><file name="mm_preference_content_keyvalue" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_content_keyvalue.xml" qualifiers="" type="layout"/><file name="mm_preference_dialog_edittext" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_dialog_edittext.xml" qualifiers="" type="layout"/><file name="mm_preference_image" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_image.xml" qualifiers="" type="layout"/><file name="mm_preference_info" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_info.xml" qualifiers="" type="layout"/><file name="mm_preference_list_content" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_list_content.xml" qualifiers="" type="layout"/><file name="mm_preference_null" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_null.xml" qualifiers="" type="layout"/><file name="mm_preference_screen" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_screen.xml" qualifiers="" type="layout"/><file name="mm_preference_self_vuser" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_self_vuser.xml" qualifiers="" type="layout"/><file name="mm_preference_submenu" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_submenu.xml" qualifiers="" type="layout"/><file name="mm_preference_widget_empty" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_preference_widget_empty.xml" qualifiers="" type="layout"/><file name="mm_title" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/mm_title.xml" qualifiers="" type="layout"/><file name="security_image" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/security_image.xml" qualifiers="" type="layout"/><file name="send_to_wx" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/send_to_wx.xml" qualifiers="" type="layout"/><file name="sendrequest_dialog" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/sendrequest_dialog.xml" qualifiers="" type="layout"/><file name="show_from_wx" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/show_from_wx.xml" qualifiers="" type="layout"/><file name="webalert" path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/layout/webalert.xml" qualifiers="" type="layout"/><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values/color_weixin.xml" qualifiers=""><color name="darkgrey">#ff404040</color><color name="grey">#58616d</color><color name="toasterro">#9fd524</color><color name="navpage">#FFE1E8EB</color><color name="blue">#ffccddff</color><color name="white">#ffffff</color><color name="black">#000000</color><color name="semitransparent">#80000000</color><color name="transparent">#00000000</color><color name="lightgrey">#ff888888</color><color name="lightransparent">#a0000000</color></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values/dimens_weibo.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values/dimens_weixin.xml" qualifiers=""><dimen name="ChattingContentMinHeight">49dp</dimen><dimen name="SmallTextSize">14dp</dimen><dimen name="TitleTextSize">18dp</dimen><dimen name="BasicTextSize">15dp</dimen><dimen name="SmallerTextSize">13dp</dimen><dimen name="ConversationItemHeight">58dp</dimen><dimen name="LargestTextSize">30dp</dimen><dimen name="PreferenceItemHeight">42dp</dimen><dimen name="LargeAvatarSize">56dp</dimen><dimen name="ChattingTextSize">16dp</dimen><dimen name="LargeTextSize">16dp</dimen></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values/strings_weibo.xml" qualifiers=""><string name="weibosdk_demo_toast_share_response_args_success">收到微博发起的请求成功</string><string name="weibosdk_demo_logout_failed">注销失败</string><string name="weibosdk_demo_token_to_string_format">Token：%1$s \nRefresh Token：%2$s \nexpires_in：%3$s</string><string name="weibosdk_demo_is_support_sdk">当前微博客户端是否支持 SDK</string><string name="weibosdk_demo_logout">注销</string><string name="weibosdk_demo_feature_open_api">开放接口（Open API）</string><string name="weibosdk_demo_openapi_invite_uid_hint">请输入被邀请人的uid</string><string name="weibosdk_demo_login_with_text_hint"><b>登录/注销按钮：</b>\n（有以下两种样式，第一种为默认效果，可修改）</string><string name="weibosdk_demo_obtain_client_abstract_info_hint">当前微博客户端信息如下：</string><string name="weibosdk_demo_share_default_text">欢迎使用新浪微博 SDK</string><string name="weibosdk_demo_share_voice_demo">XXX 声音</string><string name="weibosdk_demo_toast_auth_success">授权成功</string><string name="weibosdk_demo_share_image_title">分享图片</string><string name="weibosdk_demo_toast_obtain_code_success">获取 Code 成功</string><string name="weibosdk_demo_register_app_to_weibo_hint"><li>如何查看是否注册成功？打开微博客户端->点击发搏器->点击右下角的＋号->点击添加应用，看看能否看到该 DEMO 应用。</li>\n<li>当您的应用成功的注册到微博后，您可以通过从微博客户端唤起您的应用，实现分享（即微博附件栏集成分享）。</li>\n<li>该附件栏集成分享权限需要合作申请。<b>详情请见：</b><a href="http://open.weibo.com/wiki/%E7%A7%BB%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8E%A5%E5%85%A5">2、微博原生分享 --> b) 集成分享</a></li>\n<b>请注意：</b>目前该 DEMO 应用已申请过权限，默认情况下，第三方应用没有对应权限。</string><string name="weibosdk_demo_feature_share">分享到微博</string><string name="weibosdk_demo_toast_obtain_token_success">获取 Token 成功</string><string name="weibosdk_demo_toast_obtain_token_failed">获取 Token 失败</string><string name="weibosdk_demo_token_to_string_format_1">Token：%1$s \n有效期：%2$s</string><string name="weibosdk_demo_toast_auth_canceled">取消授权</string><string name="weibosdk_demo_share_webpage_demo">XXX 新闻</string><string name="weibosdk_demo_support_api_level">2. 当前微博客户端支持的 SDK 版本号：</string><string name="weibosdk_demo_get_group">获取微博好友分组</string><string name="weibosdk_demo_login_hint"><b>一键登录按钮：</b>\n（有以下三种样式，第一种为默认效果）</string><string name="weibosdk_demo_test_video_url">http://video.sina.com.cn/p/sports/cba/v/2013-10-22/144463050817.html</string><string name="weibosdk_demo_not_support_api_hint">微博客户端不支持 SDK 分享或微博客户端未安装或微博客户端是非官方版本。</string><string name="weibosdk_demo_openapi_revoke_auth_success">授权回收成功</string><string name="weibosdk_demo_toast_share_response_args_failed">收到客户端请求消息失败</string><string name="weibosdk_demo_test_voice_url">http://music.sina.com.cn/yueku/i/2850305.html</string><string name="weibosdk_demo_token_info">Token 信息：</string><string name="weibosdk_demo_share_video_desc">视频描述：XXX</string><string name="weibosdk_demo_logout_success">已注销</string><string name="weibosdk_demo_share_voice_template">我分享了 %1$s（分享自 WeiboSDKDemo %2$s）</string><string name="weibosdk_demo_token_text_hint">第二步获取到的 Token：</string><string name="weibosdk_demo_toast_register_app_to_weibo">已注册，请打开微博客户端查看是否注册成功。</string><string name="weibosdk_demo_share_webpage_desc">网页描述：XXX</string><string name="com_sina_weibo_sdk_login_with_weibo_account">用微博登录</string><string name="weibosdk_demo_obtain_token_via_sso">SSO（单点登录）授权</string><string name="com_sina_weibo_sdk_login">登录</string><string name="weibosdk_demo_register_app_to_weibo">注册应用到微博</string><string name="weibosdk_demo_test_music_url">http://music.sina.com.cn/yueku/i/2850305.html</string><string name="weibosdk_demo_has_installed_weibo">\t已安装</string><string name="weibosdk_demo_toast_share_canceled">取消分享</string><string name="weibosdk_demo_share_video_title">分享视频</string><string name="weibosdk_demo_has_not_installed_weibo">\t未安装</string><string name="weibosdk_demo_share_to_weibo">分享到微博</string><string name="weibosdk_demo_openapi_revoke_auth_failed">授权回收失败</string><string name="weibosdk_demo_step_to_obtain_token">第二步：通过 Code 获取 Token</string><string name="weibosdk_demo_is_installed_weibo">1. 是否安装了微博客户端？</string><string name="weibosdk_demo_obtain_token_via_sso_hint">使用 SSO 登录前，请检查手机上是否已经安装新浪微博客户端，目前仅 3.0.0 及以上微博客户端版本支持 SSO；如果未安装，将自动转为 Oauth2.0 进行认证。</string><string name="weibosdk_demo_toast_obtain_code_failed">获取 Code 失败</string><string name="weibosdk_demo_logout_failed_1">注销失败，请检查 Token 是否正确（一个 token 不能重复注销多次）</string><string name="weibosdk_demo_feature_login_logout">登录注销按钮</string><string name="weibosdk_demo_obtain_token_via_code">通过 Code 获取 Token</string><string name="weibosdk_demo_share_music_template">我正在听 %1$s（分享自 WeiboSDKDemo %2$s）</string><string name="weibosdk_demo_share_to">分  享</string><string name="weibosdk_demo_openapi_invite">邀请</string><string name="weibosdk_demo_obtain_token_hint"><b>请注意：</b>\n<li>SSO 登录需要微博客户端的支持，目前仅 3.0.0 及以上微博客户端版本支持 SSO；如果未安装，将自动转为 Oauth2.0 Web 授权认证（即第一种认证方式）</li>\n<li>如果您通过方式一和方式二获取不到 Token，而是获取到 code，那说明您的包名和签名存在问题，请到开放平台注册包名和签名。详情请查看 FAQ 文档</li></string><string name="weibosdk_demo_get_home_mblog">获取首页微博信息流</string><string name="weibosdk_demo_share_text_title">分享文字</string><string name="weibosdk_demo_toast_auth_failed">授权失败</string><string name="weibosdk_demo_share_music_desc">音乐描述：XXX</string><string name="weibosdk_demo_share_from_weibo_title">从微博->本应用->微博</string><string name="weibosdk_demo_share_text_template">我正在使用微博客户端发博器分享文字</string><string name="weibosdk_demo_toast_share_success">分享成功</string><string name="weibosdk_demo_share_webpage_template">【%1$s】（分享自 WeiboSDKDemo %2$s）</string><string name="weibosdk_demo_obtain_token_via_signature">Web 授权</string><string name="weibosdk_demo_toast_share_failed">分享失败</string><string name="weibosdk_demo_share_video_template">我正在看 %1$s（分享自 WeiboSDKDemo %2$s）</string><string name="weibosdk_demo_share_webpage_title">分享网页</string><string name="weibosdk_demo_get_comment">获取微博评论信息流</string><string name="weibosdk_demo_test_webpage_url">http://news.sina.com.cn/c/2013-10-22/021928494669.shtml</string><string name="weibosdk_demo_cancel_download_weibo">\t取消下载</string><string name="weibosdk_demo_share_voice_desc">声音描述：XXX</string><string name="weibosdk_demo_share_to_weibo_title">从本应用->微博->本应用</string><string name="weibosdk_demo_token_has_existed">Token 仍在有效期内，无需再次登录。</string><string name="weibosdk_demo_code_text_hint">第一步获取到的 Code：（一次性有效）</string><string name="com_sina_weibo_sdk_logout">注销</string><string name="weibosdk_demo_openapi_invite_success">发送邀请成功</string><string name="weibosdk_demo_step_to_obtain_code">第一步：获取 Code</string><string name="weibosdk_demo_share_music_title">分享音乐</string><string name="weibosdk_demo_obtain_token_via_code_hint"><b>请注意：</b>基于以下几点原因，您可能不想使用前面的两种授权方式：\n<li>出于安全性的考虑，您不信任目前使用应用的包名和签名来获取 Token 的方式</li>\n<li>您不想安装微博客户端</li>\n您可以自行通过 Code 来获取 Token。通过这种方式需要使用到 APP_SECRET，请务必妥善保管好自己的 APP_SECRET，<b>不要直接暴露在程序中，泄露有风险</b>。\n<b>更多细节请查看：</b><a href="http://open.weibo.com/wiki/%E6%8E%88%E6%9D%83%E6%9C%BA%E5%88%B6%E8%AF%B4%E6%98%8E#Web.E5.BA.94.E7.94.A8.E7.9A.84.E9.AA.8C.E8.AF.81.E6.8E.88.E6.9D.83">验证授权步骤</a></string><string name="weibosdk_demo_support_api_level_hint"><b>请注意：</b>\n<li>目前第三方分享微博需要客户端的支持，请确保已安装微博客户端。如果不想使用微博客户端进行分享，请参照：<a href="http://open.weibo.com/wiki/2/statuses/upload">OpenAPI</a></li>\n<li>SupportApi >= 10351时，微博客户端支持同时分享多条数据，即同时可以分享文本、图片以及其它媒体资源（网页、音乐、视频、声音）中的一种；</li>\n<li>SupportApi &lt; 10351，微博客户端只支持分享单条数据，即只能分享文本、图片、网页、音乐、视频中的一种，不支持声音（Voice）消息；</li>\n<li>SupportApi = -1，微博客户端不支持 SDK 分享或微博客户端未安装或微博客户端是非官方版本。</li></string><string name="weibosdk_demo_logout_hint"><b>注销按钮：</b>\n（注意：该按钮不再进行封装，第三方可直接调用 LogoutAPI，<b>一个 token 不能重复注销多次</b>）</string><string name="weibosdk_demo_openapi_invite_failed">发送邀请失败</string><string name="weibosdk_demo_share_voice_title">分享声音</string><string name="app_name">SNSDemo</string><string name="weibosdk_demo_feature_oauth">微博授权</string><string name="weibosdk_demo_share_music_demo">XXX 音乐</string><string name="weibosdk_demo_access_token_is_empty">Access Token 不存在，请先登录</string><string name="weibosdk_demo_app_url">https://github.com/mobileresearch/weibo_android_sdk/blob/master/WeiboSDKDemo.apk</string><string name="weibosdk_demo_share_video_demo">XXX 视频</string></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values/strings_weixin.xml" qualifiers=""><string-array name="send_webpage_item">
+	    <item>发送网页url</item>
+	</string-array><string name="fmt_evening">晚上</string><string name="send_text_default">这段文字发送自微信SDK示例程序</string><string name="share_appdata_to_weixin">回应app消息到微信</string><string name="unregister_from_weixin">从微信反注册</string><string name="share_url_to_weixin">回应URL到微信</string><string name="share_text_to_weixin">回应文本到微信</string><string formatted="false" name="fmt_datetime">M月d日 %skk:mm</string><string name="errcode_deny">发送被拒绝</string><string name="check_timeline_supported">检查是否支持发送到朋友圈</string><string name="fmt_pre_yesterday">昨天</string><string name="send_video">发送视频</string><string name="send_music">发送音乐</string><string name="app_tip">提示</string><string name="app_nextstep">下一步</string><string name="send_webpage">发送网页</string><string name="verify_password_null_tip">密码不能为空，请输入密码</string><string formatted="false" name="fmt_longtime">yyyy年M月d日 %skk:mm</string><string name="send_pic">发送照片</string><string name="send_img_file_not_exist">文件不存在</string><string name="app_send">发送</string><string-array name="send_music_item">
+	    <item>发送音乐url</item>
+	    <item>发送低带宽音乐url</item>
+	</string-array><string name="app_ok">确定</string><string name="app_continue">继续</string><string name="app_share">分享</string><string name="send_text">发送文本</string><string name="errcode_cancel">发送取消</string><string name="applet_secimg_change">换一张图片</string><string name="share_music_to_weixin">回应音乐到微信</string><string name="get_token_from_weixin">获取微信访问Token</string><string name="send_appdata">发送app消息</string><string name="share_text_default">这段文字回应自微信SDK示例程序</string><string name="fmt_morning">早上</string><string name="applet_seccode_tip">验证码不能为空</string><string name="receive">从微信接收</string><string name="app_finish">完成</string><string name="fmt_justnow">1分钟内</string><string name="send">发送到微信</string><string formatted="false" name="fmt_iap_err">网络连接不可用，请检查网络</string><string name="applet_secimg_title">填写验证码</string><string name="app_prevstep">上一步</string><string name="fmt_longdate">yyyy年M月d日</string><string-array name="send_img_item">
+        <item>发送图片的二进制数据</item>
+        <item>发送图片的本地路径</item>
+        <item>发送图片的URL</item>
+    </string-array><string name="share_pic_to_weixin">回应图片到微信</string><string name="launch_wx">启动微信</string><string name="send_emoji">发送表情消息</string><string-array name="send_appdata_item">
+	    <item>发送app文件本地路径</item>
+	    <item>发送app二进制数据</item>
+	    <item>发送无附件的app</item>
+	</string-array><string name="hello">Hello World, SDKSampleActivity!</string><string name="register_as_weixin_app_sender">注册微信事件发送器</string><string name="app_find">查找</string><string name="fmt_afternoon">下午</string><string name="show_from_wx_tip">这个界面用于显示微信向第三方app请求显示的信息</string><string name="enter">这是SDK_Sample的入口界面</string><string-array name="send_emoji_item_format">
+	    <item>发送GIF图片</item>
+	    <item>发送非GIF图片</item>
+	</string-array><string name="app_edit">编辑</string><string name="errcode_success">发送成功</string><string name="errcode_unknown">发送返回</string><string name="app_back">返回</string><string name="applet_seccode_fail_tip">验证码错误，请重新输入</string><string-array name="send_video_item">
+	    <item>发送视频url</item>
+	    <item>发送低带宽视频url</item>
+	</string-array><string name="app_save">保存</string><string name="fmt_dawn">凌晨</string><string name="is_timeline">是否分享到朋友圈</string><string name="app_set">设置</string><string formatted="false" name="fmt_in60min">%d分钟前</string><string name="fmt_noon">中午</string><string name="send_img">发送图片</string><string name="share_video_to_weixin">回应视频到微信</string><string name="app_delete">删除</string><string name="fmt_date">M月d日</string><string name="goto_send">跳转到发消息界面</string><string-array name="send_emoji_item">
+	    <item>发送表情本地路径</item>
+	    <item>发送表情二进制数据</item>
+	</string-array><string name="app_cancel">取消</string><string name="show_from_wx_title">显示微信请求的消息</string><string name="reg">将该app注册到微信</string><string name="get_from_wx_title">从微信接收</string><string name="send_to_wx_title">发送到微信</string><string name="fmt_patime">kk:mm</string></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values/styles_weibo.xml" qualifiers=""><dimen name="com_sina_weibo_sdk_loginview_padding_left">12dip</dimen><style name="com_sina_weibo_sdk_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/com_sina_weibo_sdk_loginview_padding_left</item>
+        <item name="android:paddingTop">@dimen/com_sina_weibo_sdk_loginview_padding_top</item>
+        <item name="android:paddingRight">@dimen/com_sina_weibo_sdk_loginview_padding_right</item>
+        <item name="android:paddingBottom">@dimen/com_sina_weibo_sdk_loginview_padding_bottom</item>
+        <item name="android:drawableLeft">@drawable/ic_com_sina_weibo_sdk_logo</item>
+        <item name="android:drawablePadding">@dimen/com_sina_weibo_sdk_loginview_compound_drawable_padding</item>
+        <item name="android:background">@drawable/com_sina_weibo_sdk_button_blue</item>
+        <item name="android:textColor">@color/com_sina_weibo_sdk_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_sina_weibo_sdk_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/com_sina_weibo_sdk_login_with_weibo_account</item>
+    </style><dimen name="com_sina_weibo_sdk_loginview_padding_right">16dp</dimen><dimen name="com_sina_weibo_sdk_loginview_compound_drawable_padding">12dp</dimen><dimen name="com_sina_weibo_sdk_loginview_text_size">16.0sp</dimen><style name="com_sina_weibo_sdk_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/com_sina_weibo_sdk_loginview_padding_left</item>
+        <item name="android:paddingTop">@dimen/com_sina_weibo_sdk_loginview_padding_top</item>
+        <item name="android:paddingRight">@dimen/com_sina_weibo_sdk_loginview_padding_right</item>
+        <item name="android:paddingBottom">@dimen/com_sina_weibo_sdk_loginview_padding_bottom</item>
+        <item name="android:drawableLeft">@drawable/ic_com_sina_weibo_sdk_logo</item>
+        <item name="android:drawablePadding">@dimen/com_sina_weibo_sdk_loginview_compound_drawable_padding</item>
+        <item name="android:background">@drawable/com_sina_weibo_sdk_button_grey</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:textSize">@dimen/com_sina_weibo_sdk_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/com_sina_weibo_sdk_login_with_weibo_account</item>
+    </style><color name="com_sina_weibo_sdk_loginview_text_color">#FFFFFF</color><dimen name="com_sina_weibo_sdk_loginview_padding_bottom">6dp</dimen><color name="com_sina_weibo_sdk_blue">#3B5998</color><dimen name="com_sina_weibo_sdk_loginview_padding">12dip</dimen><dimen name="com_sina_weibo_sdk_loginview_padding_top">6dp</dimen></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values/styles_weixin.xml" qualifiers=""><style name="MMCheckBox">
+        <item name="android:background">@drawable/mm_checkbox_btn</item>
+    </style><style name="MMMultiLineEditText" parent="@style/MMLineEditText">
+        <item name="android:singleLine">false</item>
+        <item name="android:minLines">3</item>
+        <item name="android:gravity">top</item>
+    </style><style name="MMSplit">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+    </style><style name="MMLabelSplit">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">13dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+    </style><style name="ChattingUISystem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#F0F0F0</item>
+        <item name="android:textSize">14dp</item>
+    </style><style name="MMDivider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#B2B2B5</item>
+    </style><style name="MMBlock">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style><style name="MMFontTipInList">
+        <item name="android:textSize">@dimen/SmallTextSize</item>
+        <item name="android:textColor">@color/mm_list_textcolor_two</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+    </style><style name="ChattingUIThumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">240dp</item>
+    </style><style name="MMFontPreferenceSmall">
+        <item name="android:textAppearance">@style/MMPreferenceTextSmall</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:shadowColor">#A0FFFFFF</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowRadius">1</item>
+    </style><style name="MMLineLabel" parent="MMLabel">
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style><style name="MMLogin" parent="MMLabel">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/LargeTextSize</item>
+    </style><style name="MMLine">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style><style name="ChoicePreferenceButton">
+        <item name="android:button">@null</item>
+        <item name="android:minWidth">60dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mm_choice_text_color</item>
+    </style><style name="MMFontTitleInList">
+        <item name="android:textSize">@dimen/LargeTextSize</item>
+        <item name="android:textColor">@color/mm_list_textcolor_one</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <!--
+		<item name="android:shadowColor">#80A0A0A0</item>
+		<item name="android:shadowDy">1.2</item>
+		<item name="android:shadowDx">1.2</item>
+		<item name="android:shadowRadius">1</item>
+        -->
+    </style><style name="MMFontPreferenceProfile" parent="MMFontPreferenceLarge">
+        <item name="android:textSize">@dimen/TitleTextSize</item>
+    </style><style name="ChattingUIFMessageText" parent="ChattingUIText">
+        <item name="android:textColor">@color/mm_pref_summary</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="MMFontEmptyMsgLarge" parent="MMFontPreferenceLarge">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mm_pref_summary</item>
+    </style><style name="ChattingUISenderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">#3F3F3F</item>
+        <item name="android:textSize">@dimen/SmallTextSize</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#A0FFFFFF</item>
+        <item name="android:maxWidth">240dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style><style name="ChattingUIMailSenderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">#4271AD</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxWidth">240dp</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="MMFriendListItem" parent="MMListItem">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style><style name="MMBriefText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#707070</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+        <item name="android:shadowColor">#A0FFFFFF</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style><style name="NavPage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/nav_page</item> -->
+        <item name="android:background">@color/navpage</item>
+    </style><style name="MMFontTimeInList" parent="MMFontTipInList">
+        <item name="android:textSize">@dimen/SmallTextSize</item>
+        <item name="android:textColor">@color/mm_list_textcolor_time</item>
+    </style><style name="MMLineEditText" parent="@style/MMEditText">
+        <item name="android:layout_width">fill_parent</item>
+    </style><style name="MMFontPreferenceLarge">
+        <item name="android:textAppearance">@style/MMPreferenceTextLarge</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+    </style><style name="HyperText" parent="MMButton">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/mm_hyper_text</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="MMBody">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">26dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">@null</item>
+    </style><style name="ChattingUIContent">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style><style name="MMFooter">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:minHeight">54dp</item>
+    </style><style name="MMPreferenceTextSmall">
+        <item name="android:textSize">@dimen/SmallTextSize</item>
+        <item name="android:textColor">@color/mm_pref_summary</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style><style name="DataSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+    </style><style name="MMEditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/mm_edit</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">43dp</item>
+        <item name="android:textColorHint">@color/lightgrey</item>
+    </style><style name="MMListCatalog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#CED2D7</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#595C61</item>
+    </style><style name="ChattingUIVoiceLength">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lightgrey</item>
+        <item name="android:textSize">@dimen/SmallTextSize</item>
+        <item name="android:shadowColor">#80FFFFFF</item>
+        <item name="android:shadowDy">1.4</item>
+        <item name="android:shadowDx">1.4</item>
+        <item name="android:shadowRadius">1</item>
+    </style><style name="MMButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/mm_btn_text</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">40dp</item>
+    </style><style name="MMLineButton" parent="@style/MMButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mm_style_two_btn_text</item>
+    </style><style name="MMToolbarButton" parent="@style/MMButton">
+        <item name="android:minWidth">45dp</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:textSize">@dimen/SmallerTextSize</item>
+        <item name="android:textColor">#2C2C2C</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="MMLabel" parent="MMBriefText">
+        <item name="android:gravity">center_vertical</item>
+    </style><style name="MMLineActionButton" parent="@style/MMLineButton">
+        <item name="android:background">@drawable/btn_style_one</item>
+        <item name="android:textColor">@color/mm_style_one_btn_text</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowRadius">1</item>
+    </style><style name="MMTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style><style name="ChattingUISplit">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/lightgrey</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#A0FFFFFF</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style><style name="ChattingUIWordCount">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">13dp</item>
+    </style><style name="MMPreferenceTextLarge">
+        <item name="android:textSize">@dimen/LargeTextSize</item>
+        <item name="android:textColor">@color/mm_pref_title</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style><style name="MMListItem">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style><style name="ChattingUIText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/ChattingTextSize</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:maxWidth">240dp</item>
+        <item name="android:minHeight">15dp</item>
+    </style><style name="MMLineEditPass" parent="@style/MMLineEditText">
+        <item name="android:password">true</item>
+        <item name="android:inputType">textPassword</item>
+    </style><style name="MMScroll">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <!-- <item name="android:fadingEdge">@null</item> -->
+    </style><style name="MMTitleButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">75dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:visibility">gone</item>
+    </style><style name="MMFontPreferenceSummary" parent="MMFontPreferenceSmall">
+        <item name="android:textAppearance">@style/MMPreferenceTextSmall</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+    </style></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values/themes_weixin.xml" qualifiers=""><style name="MMPreference.RingtonePreference">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showSilent">true</item>
+        <item name="android:showDefault">true</item>
+    </style><style name="MMListView">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+        <!-- cause some m9 crash -->
+        <!-- <item name="android:overScrollMode">always</item> -->
+    </style><style name="MMPreference.DialogPreference.YesNoPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style><style name="MMPreference.DialogPreference.EditTextPreference">
+        <item name="android:dialogLayout">@layout/mm_preference_dialog_edittext</item>
+    </style><style name="MMTheme.Launcher" parent="MMTheme.Basic">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@drawable/mm_trans</item>
+        <item name="android:windowBackground">@drawable/mm_trans</item>
+        <item name="android:windowTitleSize">0dp</item>
+    </style><style name="MMPreferenceScreen">
+        <item name="android:layout">@layout/mm_preference</item>
+        <item name="android:widgetLayout">@layout/mm_preference_screen</item>
+    </style><style name="MMPreference.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style><style name="MMTheme.DataSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@drawable/mm_trans</item>
+        <item name="android:windowBackground">@drawable/mm_trans</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/DataSheetAnimation</item>
+    </style><style name="MMPreference.Child">
+        <item name="android:layout">@layout/mm_preference_child</item>
+    </style><style name="MMPreference.Information">
+        <item name="android:layout">@layout/mm_preference</item>
+        <item name="android:enabled">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style><style name="MMPreference.CheckBoxPreference">
+        <item name="android:widgetLayout">@layout/mm_preference_checkbox</item>
+    </style><style name="MMPreference.Catagory">
+        <item name="android:layout">@layout/mm_preference_catalog</item>
+    </style><style name="MMTheme.Basic" parent="android:Theme">
+        <item name="android:listViewStyle">@style/MMListView</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:preferenceScreenStyle">@style/MMPreferenceScreen</item>
+        <item name="android:preferenceStyle">@style/MMPreference</item>
+        <item name="android:preferenceLayoutChild">@style/MMPreference.Child</item>
+        <item name="android:preferenceInformationStyle">@style/MMPreference.Information</item>
+        <item name="android:preferenceCategoryStyle">@style/MMPreference.Catagory</item>
+        <item name="android:checkBoxPreferenceStyle">@style/MMPreference.CheckBoxPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/MMPreference.RingtonePreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/MMPreference.DialogPreference.YesNoPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/MMPreference.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/MMPreference.DialogPreference.EditTextPreference</item>
+        <item name="android:checkboxStyle">@style/MMCheckBox</item>
+    </style><style name="MMTheme.Preference" parent="MMTheme.Basic">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleSize">0dp</item>
+    </style><style name="noBgFullScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="MMTheme.Search" parent="MMTheme.Basic">
+        <item name="android:windowBackground">@color/semitransparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style><style name="MMPreference">
+        <item name="android:layout">@layout/mm_preference</item>
+    </style></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values-en/strings.xml" qualifiers="en"><string name="com_sina_weibo_sdk_login_with_weibo_account">Login with Weibo</string><string name="com_sina_weibo_sdk_login">Login</string><string name="com_sina_weibo_sdk_logout">Logout</string></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values-zh/strings.xml" qualifiers="zh"><string name="emotions_fail">获取表情失败</string><string name="com_sina_weibo_sdk_logout">注销</string><string name="status_destory_ok">删除微博成功</string><string name="comment_32_like_destory">已取消32个赞</string><string name="unfavorite_fail">取消收藏失败</string><string name="comment_32_like_created">已点32个赞</string><string name="comment_reply_ok">回复评论成功</string><string name="com_sina_weibo_sdk_login_with_weibo_account">用微博登录</string><string name="status_show_ok">获取微博成功</string><string name="status_show_fail">获取微博失败</string><string name="comment_32_like_create">32个赞</string><string name="comment_ok">评论成功</string><string name="no_bind_weibo">您还没有绑定微博</string><string name="favorite_ok">收藏成功</string><string name="status_destory_fail">删除微博失败</string><string name="comment_reply_fail">回复评论失败</string><string name="unfavorite_ok">取消收藏成功</string><string name="com_sina_weibo_sdk_login">登录</string><string name="comment_fail">评论失败</string><string name="friends_time_line_ok">微博加载成功</string><string name="favorite_fail">收藏失败</string><string name="comment_destroy_fail">删除评论失败</string><string name="comment_destroy_ok">删除评论成功</string><string name="repost_fail">转发失败</string><string name="friends_time_line_fail">微博加载失败</string><string name="repost_ok">转发成功</string></file><file path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/res/values-zh-rTW/strings.xml" qualifiers="zh-rTW"><string name="com_sina_weibo_sdk_logout">註銷</string><string name="com_sina_weibo_sdk_login_with_weibo_account">用微博登錄</string><string name="com_sina_weibo_sdk_login">登錄</string></file></source><source path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/build/generated/res/rs/debug"/><source path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/Users/Zhao/Documents/Doraemon/WithU/WithU/com.kit.extend.wechat/build-types/debug/res"/></dataSet><mergedItems/></merger>
