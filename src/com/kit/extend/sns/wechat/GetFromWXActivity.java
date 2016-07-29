@@ -60,7 +60,7 @@ public class GetFromWXActivity extends Activity {
             @Override
             public void onClick(View v) {
                 final EditText editor = new EditText(GetFromWXActivity.this);
-                editor.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+                editor.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
                 editor.setText(R.string.share_text_default);
                 MMAlert.showAlert(GetFromWXActivity.this, "share text", editor, getString(R.string.app_share), getString(R.string.app_cancel), new DialogInterface.OnClickListener() {
 

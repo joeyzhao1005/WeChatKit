@@ -22,7 +22,7 @@
         <TextView
             android:id="@+id/title"
             style="@style/MMTitle"
-            android:text="@string/app_name" />
+            android:text="app_name" />
     </LinearLayout>
 
     <com.tencent.mm.sdk.uikit.MMImageButton

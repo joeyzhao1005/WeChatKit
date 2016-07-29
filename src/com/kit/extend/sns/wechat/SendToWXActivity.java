@@ -69,7 +69,7 @@ public class SendToWXActivity extends Activity {
             public void onClick(View v) {
 
                 final EditText editor = new EditText(SendToWXActivity.this);
-                editor.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+                editor.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
                 editor.setText(R.string.send_text_default);
 
                 MMAlert.showAlert(SendToWXActivity.this, "send text", editor, getString(R.string.app_share), getString(R.string.app_cancel), new DialogInterface.OnClickListener() {
