@@ -60,8 +60,8 @@
 	<string name="errcode_unknown">发送返回</string>
 	
     <!-- WXMediaMessage -->
-	<string name="send">发送到微信</string>
-	<string name="receive">从微信接收</string>
+	<string name="send_to_wx">发送到微信</string>
+	<string name="receive_from_wx">从微信接收</string>
 	
 	<string name="is_timeline">是否分享到朋友圈</string>
 	<string name="send_text">发送文本</string>

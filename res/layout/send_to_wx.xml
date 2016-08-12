@@ -33,7 +33,7 @@
 	    <TextView
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:text="@string/send"/>
+	        android:text="@string/send_to_wx"/>
 	    
 	    <Button
 	        android:id="@+id/send_text"
