@@ -21,7 +21,6 @@ local.properties
 .classpath
 .project
 .settings/*
-proguard-project.txt
 
 # IntelliJ project files
 *.iws
