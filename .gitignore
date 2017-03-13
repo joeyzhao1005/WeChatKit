@@ -31,7 +31,6 @@ local.properties
 
 # Gradle files
 .gradle
-gradle
 build
 
 # Mac system files
