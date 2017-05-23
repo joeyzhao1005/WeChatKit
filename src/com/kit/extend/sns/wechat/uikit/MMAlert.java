@@ -1,5 +1,8 @@
 package com.kit.extend.sns.wechat.uikit;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -14,8 +17,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
@@ -24,11 +25,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.kit.extend.wechat.R;
-import com.tencent.mm.sdk.MMAppMgr;
-import com.tencent.mm.sdk.platformtools.Util;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public final class MMAlert {
 
@@ -279,8 +275,6 @@ public final class MMAlert {
 
 	public static ProgressDialog showProgressDlg(final Context context, final String title, final String message, final boolean indeterminate, final boolean cancelable, final OnCancelListener lCancel) {
 
-		MMAppMgr.activate(true);
-
 		return ProgressDialog.show(context, title, message, indeterminate, cancelable, new OnCancelListener() {
 
 			@Override
@@ -288,53 +282,8 @@ public final class MMAlert {
 				if (lCancel != null) {
 					lCancel.onCancel(dialog);
 				}
-				MMAppMgr.activate(false);
 			}
 		});
-	}
-
-	public static AlertDialog showWebAlert(final Context context, final String title, final String rawUrl, final WebViewClient client, final DialogInterface.OnClickListener lOk,
-			final DialogInterface.OnDismissListener lDismiss) {
-		final View view = View.inflate(context, R.layout.webalert, null);
-		final AlertDialog alert = showAlert(context, title, view, lOk);
-		alert.setOnDismissListener(new DialogInterface.OnDismissListener() {
-
-			@Override
-			public void onDismiss(DialogInterface dialog) {
-
-				if (lDismiss != null) {
-					lDismiss.onDismiss(dialog);
-				}
-			}
-		});
-		final WebView info = (WebView) view.findViewById(R.id.info_wv);
-		info.loadUrl(rawUrl);
-		if (client != null) {
-			info.setWebViewClient(client);
-		}
-		return alert;
-	}
-
-	public static AlertDialog showWebAlert(final Context context, final String title, final String rawUrl, final WebViewClient client, final String ok, final String cancel,
-			final DialogInterface.OnClickListener lOk, final DialogInterface.OnClickListener lCancel, final DialogInterface.OnDismissListener lDismiss) {
-		final View view = View.inflate(context, R.layout.webalert, null);
-		final AlertDialog alert = showAlert(context, title, view, ok, cancel, lOk, lCancel);
-		alert.setOnDismissListener(new DialogInterface.OnDismissListener() {
-
-			@Override
-			public void onDismiss(DialogInterface dialog) {
-				if (lDismiss != null) {
-					lDismiss.onDismiss(dialog);
-				}
-			}
-		});
-
-		final WebView info = (WebView) view.findViewById(R.id.info_wv);
-		info.loadUrl(rawUrl);
-		if (client != null) {
-			info.setWebViewClient(client);
-		}
-		return alert;
 	}
 
 	/**
@@ -414,7 +363,7 @@ class AlertAdapter extends BaseAdapter {
 		if (items == null || items.length == 0) {
 			this.items = new ArrayList<String>();
 		} else {
-			this.items = Util.stringsToList(items);
+			this.items = stringsToList(items);
 		}
 		this.types = new int[this.items.size() + 3];
 		this.context = context;
@@ -495,5 +444,16 @@ class AlertAdapter extends BaseAdapter {
 		// LinearLayout view;
 		TextView text;
 		int type;
+	}
+	
+	public static List<String> stringsToList(final String[] src) {
+		if (src == null || src.length == 0) {
+			return null;
+		}
+		final List<String> result = new ArrayList<String>();
+		for (int i = 0; i < src.length; i++) {
+			result.add(src[i]);
+		}
+		return result;
 	}
 }

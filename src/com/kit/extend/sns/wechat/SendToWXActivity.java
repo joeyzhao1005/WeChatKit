@@ -1,5 +1,8 @@
 package com.kit.extend.sns.wechat;
 
+import java.io.File;
+import java.net.URL;
+
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -8,31 +11,27 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
-import com.kit.extend.wechat.R;
 import com.kit.extend.sns.wechat.uikit.CameraUtil;
 import com.kit.extend.sns.wechat.uikit.MMAlert;
-import com.kit.utils.File2ByteArrayUtils;
-import com.kit.utils.bitmap.BitmapUtils;
-import com.tencent.mm.sdk.openapi.IWXAPI;
-import com.tencent.mm.sdk.openapi.SendAuth;
-import com.tencent.mm.sdk.openapi.SendMessageToWX;
-import com.tencent.mm.sdk.openapi.WXAPIFactory;
-import com.tencent.mm.sdk.openapi.WXAppExtendObject;
-import com.tencent.mm.sdk.openapi.WXEmojiObject;
-import com.tencent.mm.sdk.openapi.WXImageObject;
-import com.tencent.mm.sdk.openapi.WXMediaMessage;
-import com.tencent.mm.sdk.openapi.WXMusicObject;
-import com.tencent.mm.sdk.openapi.WXTextObject;
-import com.tencent.mm.sdk.openapi.WXVideoObject;
-import com.tencent.mm.sdk.openapi.WXWebpageObject;
-
-import java.io.File;
-import java.net.URL;
+import com.kit.extend.wechat.R;
+import com.tencent.mm.opensdk.modelmsg.SendAuth;
+import com.tencent.mm.opensdk.modelmsg.SendMessageToWX;
+import com.tencent.mm.opensdk.modelmsg.WXAppExtendObject;
+import com.tencent.mm.opensdk.modelmsg.WXEmojiObject;
+import com.tencent.mm.opensdk.modelmsg.WXImageObject;
+import com.tencent.mm.opensdk.modelmsg.WXMediaMessage;
+import com.tencent.mm.opensdk.modelmsg.WXMiniProgramObject;
+import com.tencent.mm.opensdk.modelmsg.WXMusicObject;
+import com.tencent.mm.opensdk.modelmsg.WXTextObject;
+import com.tencent.mm.opensdk.modelmsg.WXVideoObject;
+import com.tencent.mm.opensdk.modelmsg.WXWebpageObject;
+import com.tencent.mm.opensdk.openapi.IWXAPI;
+import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 
 public class SendToWXActivity extends Activity {
 
@@ -45,7 +44,7 @@ public class SendToWXActivity extends Activity {
     private static final int MMAlertSelect2 = 1;
     private static final int MMAlertSelect3 = 2;
 
-    private CheckBox isTimelineCb;
+    private int mTargetScene = SendMessageToWX.Req.WXSceneSession;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,17 +58,13 @@ public class SendToWXActivity extends Activity {
 
     private void initView() {
 
-        isTimelineCb = (CheckBox) findViewById(R.id.is_timeline_cb);
-        isTimelineCb.setChecked(false);
-
         // send to weixin
         findViewById(R.id.send_text).setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-
                 final EditText editor = new EditText(SendToWXActivity.this);
-                editor.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+                editor.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
                 editor.setText(R.string.send_text_default);
 
                 MMAlert.showAlert(SendToWXActivity.this, "send text", editor, getString(R.string.app_share), getString(R.string.app_cancel), new DialogInterface.OnClickListener() {
@@ -81,24 +76,24 @@ public class SendToWXActivity extends Activity {
                             return;
                         }
 
-                        // 初始化一个WXTextObject对象
+                        // ��ʼ��һ��WXTextObject����
                         WXTextObject textObj = new WXTextObject();
                         textObj.text = text;
 
-                        // 用WXTextObject对象初始化一个WXMediaMessage对象
+                        // ��WXTextObject�����ʼ��һ��WXMediaMessage����
                         WXMediaMessage msg = new WXMediaMessage();
                         msg.mediaObject = textObj;
-                        // 发送文本类型的消息时，title字段不起作用
+                        // �����ı����͵���Ϣʱ��title�ֶβ�������
                         // msg.title = "Will be ignored";
                         msg.description = text;
 
-                        // 构造一个Req
+                        // ����һ��Req
                         SendMessageToWX.Req req = new SendMessageToWX.Req();
-                        req.transaction = buildTransaction("text"); // transaction字段用于唯一标识一个请求
+                        req.transaction = buildTransaction("text"); // transaction�ֶ�����Ψһ��ʶһ������
                         req.message = msg;
-                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                        req.scene = mTargetScene;
 
-                        // 调用api接口发送数据到微信
+                        // ����api�ӿڷ�����ݵ�΢��
                         api.sendReq(req);
                         finish();
                     }
@@ -126,12 +121,12 @@ public class SendToWXActivity extends Activity {
 
                                         Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
                                         bmp.recycle();
-                                        msg.thumbData = File2ByteArrayUtils.bmpToByteArray(thumbBmp, true);  // 设置缩略图
+                                        msg.thumbData = Util.bmpToByteArray(thumbBmp, true);  // ��������ͼ
 
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("img");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -155,45 +150,46 @@ public class SendToWXActivity extends Activity {
                                         Bitmap bmp = BitmapFactory.decodeFile(path);
                                         Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
                                         bmp.recycle();
-                                        msg.thumbData = File2ByteArrayUtils.bmpToByteArray(thumbBmp, true);
+                                        msg.thumbData = Util.bmpToByteArray(thumbBmp, true);
 
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("img");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
                                         break;
                                     }
-                                    case MMAlertSelect3: {
-                                        String url = "http://weixin.qq.com/zh_CN/htmledition/images/weixin/weixin_logo0d1938.png";
+                                    // deprecated imageurl
+                        /*case MMAlertSelect3: {
+							String url = "http://weixin.qq.com/zh_CN/htmledition/images/weixin/weixin_logo20f761.png";
+								
+							try{
+								WXImageObject imgObj = new WXImageObject();
+								imgObj.imageUrl = url;
+								
+								WXMediaMessage msg = new WXMediaMessage();
+								msg.mediaObject = imgObj;
 
-                                        try {
-                                            WXImageObject imgObj = new WXImageObject();
-                                            imgObj.imageUrl = url;
-
-                                            WXMediaMessage msg = new WXMediaMessage();
-                                            msg.mediaObject = imgObj;
-
-                                            Bitmap bmp = BitmapFactory.decodeStream(new URL(url).openStream());
-                                            Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
-                                            bmp.recycle();
-                                            msg.thumbData = File2ByteArrayUtils.bmpToByteArray(thumbBmp, true);
-
-                                            SendMessageToWX.Req req = new SendMessageToWX.Req();
-                                            req.transaction = buildTransaction("img");
-                                            req.message = msg;
-                                            req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
-                                            api.sendReq(req);
-
-                                            finish();
-                                        } catch (Exception e) {
-                                            e.printStackTrace();
-                                        }
-
-                                        break;
-                                    }
+								Bitmap bmp = BitmapFactory.decodeStream(new URL(url).openStream());
+								Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
+								bmp.recycle();
+								msg.thumbData = Util.bmpToByteArray(thumbBmp, true);
+								
+								SendMessageToWX.Req req = new SendMessageToWX.Req();
+								req.transaction = buildTransaction("img");
+								req.message = msg;
+								req.scene = mTargetScene;
+								api.sendReq(req);
+								
+								finish();
+							} catch(Exception e) {
+								e.printStackTrace();
+							}
+					
+							break;
+						}*/
                                     default:
                                         break;
                                 }
@@ -226,13 +222,15 @@ public class SendToWXActivity extends Activity {
                                         msg.title = "Music Title Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long";
                                         msg.description = "Music Album Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long";
 
-                                        Bitmap thumb = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
-                                        msg.thumbData = File2ByteArrayUtils.bmpToByteArray(thumb, true);
+                                        Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
+                                        Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
+                                        bmp.recycle();
+                                        msg.thumbData = Util.bmpToByteArray(thumbBmp, true);
 
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("music");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -247,13 +245,15 @@ public class SendToWXActivity extends Activity {
                                         msg.title = "Music Title";
                                         msg.description = "Music Album";
 
-                                        Bitmap thumb = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
-                                        msg.thumbData = File2ByteArrayUtils.bmpToByteArray(thumb, true);
+                                        Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
+                                        Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
+                                        bmp.recycle();
+                                        msg.thumbData = Util.bmpToByteArray(thumbBmp, true);
 
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("music");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -280,18 +280,20 @@ public class SendToWXActivity extends Activity {
                                 switch (whichButton) {
                                     case MMAlertSelect1: {
                                         WXVideoObject video = new WXVideoObject();
-                                        video.videoUrl = "http://www.baidu.com";
+                                        video.videoUrl = "http://www.qq.com";
 
                                         WXMediaMessage msg = new WXMediaMessage(video);
                                         msg.title = "Video Title Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long";
                                         msg.description = "Video Description Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long";
-                                        Bitmap thumb = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
-                                        msg.thumbData = File2ByteArrayUtils.bmpToByteArray(thumb, true);
+                                        Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
+                                        Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
+                                        bmp.recycle();
+                                        msg.thumbData = Util.bmpToByteArray(thumbBmp, true);
 
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("video");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -308,7 +310,7 @@ public class SendToWXActivity extends Activity {
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("video");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -335,17 +337,59 @@ public class SendToWXActivity extends Activity {
                                 switch (whichButton) {
                                     case MMAlertSelect1:
                                         WXWebpageObject webpage = new WXWebpageObject();
-                                        webpage.webpageUrl = "http://www.baidu.com";
+                                        webpage.webpageUrl = "http://www.qq.com";
                                         WXMediaMessage msg = new WXMediaMessage(webpage);
                                         msg.title = "WebPage Title WebPage Title WebPage Title WebPage Title WebPage Title WebPage Title WebPage Title WebPage Title WebPage Title Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long Very Long";
                                         msg.description = "WebPage Description WebPage Description WebPage Description WebPage Description WebPage Description WebPage Description WebPage Description WebPage Description WebPage Description Very Long Very Long Very Long Very Long Very Long Very Long Very Long";
-                                        Bitmap thumb = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
-                                        msg.thumbData = File2ByteArrayUtils.bmpToByteArray(thumb, true);
+                                        Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
+                                        Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
+                                        bmp.recycle();
+                                        msg.thumbData = Util.bmpToByteArray(thumbBmp, true);
 
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("webpage");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
+                                        api.sendReq(req);
+
+                                        finish();
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                        });
+            }
+        });
+
+        findViewById(R.id.send_appbrand).setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                MMAlert.showAlert(SendToWXActivity.this, getString(R.string.send_appbrand),
+                        SendToWXActivity.this.getResources().getStringArray(R.array.send_appbrand_item),
+                        null, new MMAlert.OnAlertSelectId() {
+
+                            @Override
+                            public void onClick(int whichButton) {
+                                switch (whichButton) {
+                                    case MMAlertSelect1:
+                                        WXMiniProgramObject miniProgram = new WXMiniProgramObject();
+                                        miniProgram.webpageUrl = "http://www.qq.com";
+                                        miniProgram.userName = "gh_d43f693ca31f";
+                                        miniProgram.path = "pages/play/index?cid=fvue88y1fsnk4w2&ptag=vicyao&seek=3219";
+                                        WXMediaMessage msg = new WXMediaMessage(miniProgram);
+                                        msg.title = "分享小程序Title";
+                                        msg.description = "分享小程序描述信息";
+                                        Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.send_music_thumb);
+                                        Bitmap thumbBmp = Bitmap.createScaledBitmap(bmp, THUMB_SIZE, THUMB_SIZE, true);
+                                        bmp.recycle();
+                                        msg.thumbData = Util.bmpToByteArray(thumbBmp, true);
+
+                                        SendMessageToWX.Req req = new SendMessageToWX.Req();
+                                        req.transaction = buildTransaction("webpage");
+                                        req.message = msg;
+                                        req.scene = SendMessageToWX.Req.WXSceneTimeline;
                                         api.sendReq(req);
 
                                         finish();
@@ -380,11 +424,11 @@ public class SendToWXActivity extends Activity {
                                     case MMAlertSelect2: {
                                         final WXAppExtendObject appdata = new WXAppExtendObject();
                                         final String path = SDCARD_ROOT + "/test.png";
-                                        appdata.fileData = File2ByteArrayUtils.readFromFile(path, 0, -1);
+                                        appdata.fileData = Util.readFromFile(path, 0, -1);
                                         appdata.extInfo = "this is ext info";
 
                                         final WXMediaMessage msg = new WXMediaMessage();
-                                        msg.setThumbImage(BitmapUtils.resize(path, 150, 150, true));
+                                        msg.setThumbImage(Util.extractThumbNail(path, 150, 150, true));
                                         msg.title = "this is title";
                                         msg.description = "this is description sjgksgj sklgjl sjgsgskl gslgj sklgj sjglsjgs kl gjksss ssssssss sjskgs kgjsj jskgjs kjgk sgjsk Very Long Very Long Very Long Very Longgj skjgks kgsk lgskg jslgj";
                                         msg.mediaObject = appdata;
@@ -392,7 +436,7 @@ public class SendToWXActivity extends Activity {
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("appdata");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -410,7 +454,7 @@ public class SendToWXActivity extends Activity {
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("appdata");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -445,13 +489,13 @@ public class SendToWXActivity extends Activity {
                                         WXMediaMessage msg = new WXMediaMessage(emoji);
                                         msg.title = "Emoji Title";
                                         msg.description = "Emoji Description";
-                                        msg.thumbData = File2ByteArrayUtils.readFromFile(EMOJI_FILE_THUMB_PATH, 0, (int) new File(EMOJI_FILE_THUMB_PATH).length());
+                                        msg.thumbData = Util.readFromFile(EMOJI_FILE_THUMB_PATH, 0, (int) new File(EMOJI_FILE_THUMB_PATH).length());
 
 
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("emoji");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -460,17 +504,17 @@ public class SendToWXActivity extends Activity {
 
                                     case MMAlertSelect2: {
                                         WXEmojiObject emoji = new WXEmojiObject();
-                                        emoji.emojiData = File2ByteArrayUtils.readFromFile(EMOJI_FILE_PATH, 0, (int) new File(EMOJI_FILE_PATH).length());
+                                        emoji.emojiData = Util.readFromFile(EMOJI_FILE_PATH, 0, (int) new File(EMOJI_FILE_PATH).length());
                                         WXMediaMessage msg = new WXMediaMessage(emoji);
 
                                         msg.title = "Emoji Title";
                                         msg.description = "Emoji Description";
-                                        msg.thumbData = File2ByteArrayUtils.readFromFile(EMOJI_FILE_THUMB_PATH, 0, (int) new File(EMOJI_FILE_THUMB_PATH).length());
+                                        msg.thumbData = Util.readFromFile(EMOJI_FILE_THUMB_PATH, 0, (int) new File(EMOJI_FILE_THUMB_PATH).length());
 
                                         SendMessageToWX.Req req = new SendMessageToWX.Req();
                                         req.transaction = buildTransaction("emoji");
                                         req.message = msg;
-                                        req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
+                                        req.scene = mTargetScene;
                                         api.sendReq(req);
 
                                         finish();
@@ -491,7 +535,7 @@ public class SendToWXActivity extends Activity {
             public void onClick(View v) {
                 // send oauth request
                 final SendAuth.Req req = new SendAuth.Req();
-                req.scope = "post_timeline";
+                req.scope = "snsapi_userinfo";
                 req.state = "none";
                 api.sendReq(req);
                 finish();
@@ -515,24 +559,26 @@ public class SendToWXActivity extends Activity {
         switch (requestCode) {
 
             case 0x101: {
-                final WXAppExtendObject appdata = new WXAppExtendObject();
-                final String path = CameraUtil.getResultPhotoPath(this, data, SDCARD_ROOT + "/tencent/");
-                appdata.filePath = path;
-                appdata.extInfo = "this is ext info";
+                if (resultCode == RESULT_OK) {
+                    final WXAppExtendObject appdata = new WXAppExtendObject();
+                    final String path = CameraUtil.getResultPhotoPath(this, data, SDCARD_ROOT + "/tencent/");
+                    appdata.filePath = path;
+                    appdata.extInfo = "this is ext info";
 
-                final WXMediaMessage msg = new WXMediaMessage();
-                msg.setThumbImage(BitmapUtils.resize(path, 150, 150, true));
-                msg.title = "this is title";
-                msg.description = "this is description";
-                msg.mediaObject = appdata;
+                    final WXMediaMessage msg = new WXMediaMessage();
+                    msg.setThumbImage(Util.extractThumbNail(path, 150, 150, true));
+                    msg.title = "this is title";
+                    msg.description = "this is description";
+                    msg.mediaObject = appdata;
 
-                SendMessageToWX.Req req = new SendMessageToWX.Req();
-                req.transaction = buildTransaction("appdata");
-                req.message = msg;
-                req.scene = isTimelineCb.isChecked() ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;
-                api.sendReq(req);
+                    SendMessageToWX.Req req = new SendMessageToWX.Req();
+                    req.transaction = buildTransaction("appdata");
+                    req.message = msg;
+                    req.scene = mTargetScene;
+                    api.sendReq(req);
 
-                finish();
+                    finish();
+                }
                 break;
             }
             default:
@@ -542,5 +588,27 @@ public class SendToWXActivity extends Activity {
 
     private String buildTransaction(final String type) {
         return (type == null) ? String.valueOf(System.currentTimeMillis()) : type + System.currentTimeMillis();
+    }
+
+    public void onRadioButtonClicked(View view) {
+        if (!(view instanceof RadioButton)) {
+            return;
+        }
+
+        boolean checked = ((RadioButton) view).isChecked();
+
+        if (view.getId() == R.id.target_scene_session) {
+            if (checked) {
+                mTargetScene = SendMessageToWX.Req.WXSceneSession;
+            }
+        } else if (view.getId() == R.id.target_scene_timeline) {
+            if (checked) {
+                mTargetScene = SendMessageToWX.Req.WXSceneTimeline;
+            }
+        } else if (view.getId() == R.id.target_scene_favorite) {
+            if (checked) {
+                mTargetScene = SendMessageToWX.Req.WXSceneFavorite;
+            }
+        }
     }
 }

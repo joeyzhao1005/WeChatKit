@@ -3,10 +3,7 @@ package com.kit.extend.sns.wechat.uikit;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-
-import com.tencent.mm.algorithm.MD5;
-import com.tencent.mm.sdk.platformtools.Log;
-import com.tencent.mm.sdk.platformtools.Util;
+import java.security.MessageDigest;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -18,6 +15,7 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.provider.MediaStore.MediaColumns;
 import android.text.format.DateFormat;
+import android.util.Log;
 
 public final class CameraUtil {
 
@@ -90,7 +88,7 @@ public final class CameraUtil {
 		} else if (data.getAction() != null && data.getAction().equals("inline-data")) {
 
 			try {
-				final String fileName = MD5.getMessageDigest(DateFormat.format("yyyy-MM-dd-HH-mm-ss", System.currentTimeMillis()).toString().getBytes()) + Util.PHOTO_DEFAULT_EXT;
+				final String fileName = getMessageDigest(DateFormat.format("yyyy-MM-dd-HH-mm-ss", System.currentTimeMillis()).toString().getBytes()) + ".jpg";
 				filePath = dir + fileName;
 
 				final Bitmap bitmap = (Bitmap) data.getExtras().get("data");
@@ -123,6 +121,26 @@ public final class CameraUtil {
 			cu = null;
 		}
 		return filePath;
+	}
+	
+	private final static String getMessageDigest(byte[] buffer) {
+		char hexDigits[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' };
+		try {
+			MessageDigest mdTemp = MessageDigest.getInstance("MD5");
+			mdTemp.update(buffer);
+			byte[] md = mdTemp.digest();
+			int j = md.length;
+			char str[] = new char[j * 2];
+			int k = 0;
+			for (int i = 0; i < j; i++) {
+				byte byte0 = md[i];
+				str[k++] = hexDigits[byte0 >>> 4 & 0xf];
+				str[k++] = hexDigits[byte0 & 0xf];
+			}
+			return new String(str);
+		} catch (Exception e) {
+			return null;
+		}
 	}
 
 }

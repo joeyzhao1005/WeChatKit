@@ -8,32 +8,41 @@
 	    android:layout_height="fill_parent"
 	    android:gravity="center_vertical"
 	    android:orientation="vertical" >
-	    
-	    <LinearLayout
-	        android:orientation="horizontal"
+
+		<TextView
 	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content">
-	        
-		    <CheckBox
-		        android:id="@+id/is_timeline_cb"
-		        android:clickable="true"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"/>
-		    
-		    <TextView
+	        android:layout_height="wrap_content"
+	        android:text="@string/target_scene"/>
+		
+		<RadioGroup
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    <RadioButton android:id="@+id/target_scene_session"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:layout_weight="1"
-		        android:textColor="@color/black"
-		        android:text="@string/is_timeline"/>
-		    
-	    </LinearLayout>
+		        android:checked="true"
+		        android:textColor="@color/grey"
+		        android:text="@string/target_scene_session"
+		        android:onClick="onRadioButtonClicked"/>
+		    <RadioButton android:id="@+id/target_scene_timeline"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/grey"
+		        android:text="@string/target_scene_timeline"
+		        android:onClick="onRadioButtonClicked"/>
+		    <RadioButton android:id="@+id/target_scene_favorite"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/grey"
+		        android:text="@string/target_scene_favorite"
+		        android:onClick="onRadioButtonClicked"/>		    
+		</RadioGroup>	    
 	    
-       
 	    <TextView
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:text="@string/send_to_wx"/>
+	        android:text="@string/send"/>
 	    
 	    <Button
 	        android:id="@+id/send_text"
@@ -64,6 +73,12 @@
 	        style="@style/MMLineActionButton"
 	        android:layout_margin="10dp"
 	        android:text="@string/send_webpage"/>
+
+		<Button
+			android:id="@+id/send_appbrand"
+			style="@style/MMLineActionButton"
+			android:layout_margin="10dp"
+			android:text="@string/send_appbrand"/>
 	    
 	    <Button
 	        android:id="@+id/send_appdata"
