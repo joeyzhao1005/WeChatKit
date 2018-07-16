@@ -40,15 +40,6 @@ android {
     }
 
 
-    productFlavors {
-        zhao {
-            dimension "default"
-        }
-//        yingyongbao {}
-//        baidu {}
-//        xiaomi {}
-    }
-
 
     buildTypes {
         debug {}
